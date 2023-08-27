@@ -1,0 +1,15 @@
+Question Link -->
+https://www.codechef.com/problems/WORDLE
+
+Code-->
+t = int(input())
+while(t):
+    S=input()
+    T=input()
+    for i in range(len(S)):
+        if S[i]==T[i]:
+            print("G",end="")
+        else:
+            print("B",end="")
+    print()        
+    t=t-1
