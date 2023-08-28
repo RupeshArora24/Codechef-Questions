@@ -1,0 +1,16 @@
+Question Link -->
+https://www.codechef.com/problems/COMPRESSVD
+
+Code-->
+
+# cook your dish here
+t =int(input())
+while(t):
+    n=int(input())
+    arr=list(map(int,input().strip().split()))
+    ans=0
+    for i in range(1,n):
+        if arr[i-1]==arr[i]:
+            ans=ans+1
+    print(n-ans)    
+    t=t-1
