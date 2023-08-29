@@ -1,0 +1,16 @@
+Question Link --> 
+https://www.codechef.com/problems/DIGARR
+
+Code--> 
+
+# cook your dish here
+t = int(input())
+while(t):
+    n = int(input())
+    N=input()
+    if '5' in N or '0' in N:
+        print("Yes")
+    else:
+        print("No")
+    
+    t=t-1
