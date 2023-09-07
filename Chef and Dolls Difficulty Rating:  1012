@@ -1,0 +1,32 @@
+Question Link --> 
+https://www.codechef.com/practice/INTARR01/problems/MISSP?tab=statement
+
+Code--> 
+# cook your dish here
+from collections import Counter
+t= int (input())
+while(t):
+    n=[]
+    ans=0
+    N=int(input())
+    for i in range(N):
+        n.append(int(input()))
+    
+    ans=Counter(n)
+    for i in ans:
+        if ans[i]%2==1:
+            print(i)
+    t=t-1
+
+
+Explanation --> 
+
+In this question we need to print the output as the type of the doll that dose not have the pair in the given inputs like if the given array is 1,1,2,2,3,6,6 in this 1,2,6 have the pairs but 3 doent have the pair so we will return 3 as the output and we need to print the types in new line means if like 112236998 the output will be as
+
+3
+
+6
+
+8
+
+> here i have used the python dictionary i have created that by help of counter in collections and just printed the keys who have the odd values.
