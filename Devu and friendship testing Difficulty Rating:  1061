@@ -1,0 +1,17 @@
+# cook your dish here
+from collections import Counter
+t=int(input())
+while(t):
+    count=0
+    n=int(input())
+    arr=list(map(int,input().strip().split()))
+    arr1=Counter(arr)
+    for i in arr1:
+        if arr1[i]>1:
+            count+=1
+    if count==0:
+        print(n)
+ 
+    else:
+        print(len(arr1))
+    t=t-1
