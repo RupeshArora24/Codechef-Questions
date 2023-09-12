@@ -1,0 +1,14 @@
+
+from collections import Counter
+# cook your dish here
+t = int(input())
+while(t):
+    N=int(input())
+    arr=list(map(int,input().strip().split()))
+    arr1=Counter(arr)
+    if len(arr1)==1 :
+        print(0)
+    else:
+        maxii=max(arr1.values()) 
+        print(N-maxii)
+    t=t-1
