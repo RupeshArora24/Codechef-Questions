@@ -1,0 +1,17 @@
+# cook your dish here
+from collections import Counter
+t = int(input())
+while(t):
+  count=0    
+  N = int(input())
+  arr=list(map(int,input().strip().split()))
+  arr1=Counter(arr)
+  maxii=max(arr1.values())
+  for i in arr1:
+      if maxii<=arr1.get(i):
+          count+=1
+  if count==1:
+      print("YES")
+  else:
+      print("NO")
+  t=t-1
