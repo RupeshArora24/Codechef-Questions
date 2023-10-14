@@ -1,0 +1,7 @@
+# cook your dish here
+t = int(input())
+while(t):
+    N=int(input()) #number of colours
+    arr = list(map(int,input().strip().split()))
+    print(max(arr))
+    t=t-1
