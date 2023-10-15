@@ -1,0 +1,10 @@
+# cook your dish here
+t = int(input())
+while(t): 
+ x = int(input())
+ check = (x%10)
+ if check<5:
+     print(100-(x-check))
+ else:
+     print(100-(x+(5-(check-5))))
+ t=t-1     
