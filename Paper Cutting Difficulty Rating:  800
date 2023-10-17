@@ -1,0 +1,11 @@
+Link --> https://www.codechef.com/practice/INTNT01/problems/CUTPAPER
+
+Code --> 
+
+# cook your dish here
+t = int(input())
+while(t):
+    N,K=map(int,input().strip().split()) 
+    print((N//K)*(N//K))
+    t=t-1
+    
