@@ -1,0 +1,11 @@
+# cook your dish here
+t = int(input())
+while(t):
+    N,M=map(int,input().strip().split())
+    if (N-N*0.1)>M:
+        print("DINING")
+    elif (N-N*0.1)==M :
+        print("EITHER")
+    else:
+        print("ONLINE")
+    t=t-1
