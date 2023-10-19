@@ -1,0 +1,11 @@
+# cook your dish here
+t = int(input())
+while(t):
+    a,b = map(int,input().strip().split())
+    if (100-1*a)>(200-2*b) :
+        print("SECOND")
+    elif (100-1*a)==(200-2*b):
+        print("BOTH")
+    else:
+        print("FIRST")
+    t=t-1
