@@ -1,0 +1,16 @@
+# cook your dish here
+t = int(input())
+while(t):
+    c=0
+    a,b=map(int,input().strip().split())
+    su=a+b
+    for i in range(2,su) :
+  
+      if su%i == 0:
+         print("Bob")
+         c=1
+         break
+    if c==0:
+        
+       print("Alice")
+    t=t-1
