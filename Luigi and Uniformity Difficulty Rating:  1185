@@ -1,0 +1,11 @@
+from math import gcd
+t = int(input())
+while(t):
+    n = map(int,input().strip().split())
+    arr = list(map(int,input().strip().split()))
+    m = arr.count(min(arr))
+    if gcd(*arr) != min(arr) : 
+        print(len(arr))
+    else:
+        print(len(arr) - arr.count(min(arr)))
+    t=t-1
