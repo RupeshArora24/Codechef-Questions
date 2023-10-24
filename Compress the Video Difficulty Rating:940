@@ -14,3 +14,5 @@ while(t):
             ans=ans+1
     print(n-ans)    
     t=t-1
+
+
