@@ -2,6 +2,6 @@ import math
 t = int(input())
 while(t):
     n,m = map(int,input().strip().split())
-    gcd = math.gcd(n,m)
+    gcd = math.gcd(n,m) 
     print(gcd)
     t=t-1
