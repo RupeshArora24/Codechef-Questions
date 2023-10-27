@@ -8,7 +8,7 @@ while(t):
   arr1=Counter(arr)
   maxii=max(arr1.values())
   for i in arr1:
-      if maxii<=arr1.get(i):
+      if maxii<=arr1.get(i): 
           count+=1
   if count==1:
       print("YES")
