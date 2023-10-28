@@ -7,7 +7,7 @@ Code-->
 t = int(input())
 while(t):
     n = int(input())
-    N=input()
+    N=input() 
     if '5' in N or '0' in N:
         print("Yes")
     else:
