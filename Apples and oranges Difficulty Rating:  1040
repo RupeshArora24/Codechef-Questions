@@ -4,4 +4,4 @@ while(t):
     n,m = map(int,input().strip().split())
     gcd = math.gcd(n,m) 
     print(gcd) 
-    t=t-1
+    t=t-1 
